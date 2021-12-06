@@ -114,7 +114,7 @@ plt.title('loss function MSE')
 plt.ylabel('MSE')
 plt.xlabel('Epoch')
 plt.legend()
-# grafik metric MAE
+
 
 plt.plot(history.history['mae'], label='Training MAE')
 plt.plot(history.history['val_mae'], label='Validation MAE')
